@@ -2,13 +2,13 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Mon portfolio</title>
+    <link rel="stylesheet" href="projet.css">
 </head>
 <body>
     <h1>Bienvenue sur mon portfolio</h1>
-        <section id="menu">
-        </section> 
+        
     <button onclick="Sombre()"> Cliquer pour basculer en mode sombre</button>
     <header> 
         <nav >
@@ -24,6 +24,7 @@
     
     <section id="apropos"><br>
         <h2>A propos de moi </h2>
+        <img src="Image.jpeg" alt="Ma photo">
         <p>Je m'appelle Gbonoumi Grace FAYALO .Je suis titulaire d'un baccalauréat série C.
             Etudiante en Statistique Appliquée à l'Ecole Nationale de Statistique , de Plannification et de Démographie de l'Université 
             de Parakou, j'allie également ma passion pour les languages de programmation ainsi que celle de  la création des sites web .  
@@ -46,9 +47,10 @@
         <section id="projets">
            <h2>Mes projets</h2>
          <ul>
-            <li>Mes exercices d'application en HTML</li>
-             <li>Application de CSS</li>
-             <li> Conception de mon portfolio</li>
+            <li>Projet d'application en HTML</li>
+             <li>Projet d'application de CSS</li>
+             <li>Projet d'application de JavaScript</li>
+             <li>Conception de mon portfolio</li>
 
          </ul>
         </section>
@@ -66,8 +68,8 @@
                 <br><input type="submit" onclick="message()" id="button" value="Envoyer" size="200">
             </form>
         
-            <a href="C:\Users\BIENVENUE GRACE\Downloads\CV_Grace_FAYALO-1.docx" download></a>
-         <button onclick="Cliquer()" > Télécharger le CV </button>
+            <a href="C:\Users\BIENVENUE GRACE\Downloads\CV_Grace_FAYALO-1.docx" download>
+         <button onclick="Cliquer()" > Télécharger le CV </button></a>
 
             <form onsubmit="return verification ()">
                 <input type="text" id="contact" placeholder="Saisissez votre contact" >
