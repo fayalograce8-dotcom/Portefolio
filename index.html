@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+
+    <title> Mon portfolio</title>
+</head>
+<body>
+    <h1>Bienvenue sur mon portfolio</h1>
+        <section id="menu">
+        </section> 
+    <button onclick="Sombre()"> Cliquer pour basculer en mode sombre</button>
+    <header> 
+        <nav >
+            <ul class="menu">
+                <li><a href="#apropos">A propos </a></li>
+                <li><a href="#Competences">Mes compétences </a></li>
+                <li><a href="#projets">Mes projets </a></li> 
+                <li><a href="#contact">Contact</a></li>
+            </ul>  
+        </nav>
+    </header>
+    <main>
+    
+    <section id="apropos"><br>
+        <h2>A propos de moi </h2>
+        <p>Je m'appelle Gbonoumi Grace FAYALO .Je suis titulaire d'un baccalauréat série C.
+            Etudiante en Statistique Appliquée à l'Ecole Nationale de Statistique , de Plannification et de Démographie de l'Université 
+            de Parakou, j'allie également ma passion pour les languages de programmation ainsi que celle de  la création des sites web .  
+            Je suis également  passionnée par les romans .
+            Mon portfilo rendra compte de mes compétences linguistiques et transversales ainsi que de mas exercies sur JavaScript , 
+            HTML et CSS </p>
+     </section>
+
+        <section id="Competences">
+          <h2>Mes compétences</h2>
+         <ul>
+            <li>Maîtrise partielle du HTML</li>
+            <li>Maîtrise partielle de CSS</li>
+            <li>Maîtrise partielle du JavaScript</li>
+            <li>Maîtrise partielle du language C </li>
+            <li> Maîtrise de la prise de parole en public</li>
+         </ul>
+        </section>
+
+        <section id="projets">
+           <h2>Mes projets</h2>
+         <ul>
+            <li>Mes exercices d'application en HTML</li>
+             <li>Application de CSS</li>
+             <li> Conception de mon portfolio</li>
+
+         </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p id="contact-info">Vous pouvez me joindre par : </p>
+            <a id="mail" href="mailto:fayalograce8@gmail.com">fayalograce8@gmail.com</a><br>
+            <a id="numéro" href="tel:+2290163253706"><br>
+                +2290163253706</a>
+
+            <form id="form">
+                <input type="text" id="nom" placeholder="Déclinez votre nom">
+                <br><input type="email" id="email" placeholder="Entrez votre email">
+                <br><textarea name="message" id="message" placeholder="Saisissez votre message ou votre commentaire "></textarea>
+                <br><input type="submit" onclick="message()" id="button" value="Envoyer" size="200">
+            </form>
+        
+            <a href="C:\Users\BIENVENUE GRACE\Downloads\CV_Grace_FAYALO-1.docx" download></a>
+         <button onclick="Cliquer()" > Télécharger le CV </button>
+
+            <form onsubmit="return verification ()">
+                <input type="text" id="contact" placeholder="Saisissez votre contact" >
+                <button type="submit">Vérifier</button>
+            </form>
+         <button onclick="remonter()">Remoner en haut de la page </button><gap></gap>
+        </section>
+        
+        </main>
+        <script src="projet.js"></script>
+        <footer>
+        Gbonoumi Grace FAYALO. 
+    </footer>
+</body>
+</html>
