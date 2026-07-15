@@ -29,9 +29,11 @@ nav {
   align-items: center;
 }
 image {
-  width: 30px;
-  height: 50px;
-  border-radius: 10%;
+   
+        max-width: 100%;
+        heigth : auto ; 
+        display: block ;
+        border-radius: 10%;
 }
 #apropos{
   text-align: center;
