@@ -1,4 +1,4 @@
-    const Hour= new Date().getUTCHours();
+     const Hour= new Date().getUTCHours();
     const decalage=new Date().getTimezoneOffset()/60;
     const affichage=(Hour-decalage+24)%24;
 if (affichage<12) { alert("Bonjour! Bienvenu dans mon portfolio") 
